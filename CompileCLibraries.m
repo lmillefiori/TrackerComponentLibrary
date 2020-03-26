@@ -182,7 +182,7 @@ mex('-v','-largeArrayDims','-U__STDC_UTF_16__','-outdir','./0_Compiled_Code/','-
 %Compile kronSym
 mex('-v','CFLAGS="$CFLAGS -std=c99 -Wall"','-largeArrayDims','-U__STDC_UTF_16__','-outdir','./0_Compiled_Code/','-I./','./Mathematical Functions/Basic Matrix Operations/kronSym.c')
 %Compile heapSortVec
-mex('-v','CFLAGS="$CFLAGS -std=c99 -Wall"','-largeArrayDims','-U__STDC_UTF_16__','-outdir','./0_Compiled_Code/','-I./','-I./Mathematical Functions/Shared C Code/','./Mathematical Functions/Sorting/heapSortVec.c','./Mathematical Functions/Shared C Code/heapSortVecC.C')
+mex('-v','CFLAGS="$CFLAGS -std=c99 -Wall"','-largeArrayDims','-U__STDC_UTF_16__','-outdir','./0_Compiled_Code/','-I./','-I./Mathematical Functions/Shared C Code/','./Mathematical Functions/Sorting/heapSortVec.c','./Mathematical Functions/Shared C Code/heapSortVecC.c')
 %Compile permuteMatrix
 mex('-v','CFLAGS="$CFLAGS -std=c99 -Wall"','-largeArrayDims','-U__STDC_UTF_16__','-outdir','./0_Compiled_Code/','-I./','-I./Mathematical Functions/Basic Matrix Operations/Shared C Code/','./Mathematical Functions/Basic Matrix Operations/permuteMatrix.c','./Mathematical Functions/Basic Matrix Operations/Shared C Code/permuteMatrixC.c')
 %Compile minMatOverDim
